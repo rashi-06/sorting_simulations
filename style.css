@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    padding: 5px 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 25px 15px;
+    padding: 20px 10px;
+    font-size: 2rem;
+}
+
+a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .c{
+        margin: 15px 5px;
+    }
+  }
